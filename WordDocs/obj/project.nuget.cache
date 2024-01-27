@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rnlIe7lhxupWoGnyVGA3QvQVA4ZWtJJYL0pqpWQTMzjVO4rS4XeJOpV9LU1AgVNPAMle1MjUDQVt0p/wzHUzrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deer\\RiderProjects\\SetOfExamples\\WordDocs\\WordDocs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deer\\.nuget\\packages\\documentformat.openxml\\3.0.1\\documentformat.openxml.3.0.1.nupkg.sha512",
+    "C:\\Users\\deer\\.nuget\\packages\\documentformat.openxml.framework\\3.0.1\\documentformat.openxml.framework.3.0.1.nupkg.sha512",
+    "C:\\Users\\deer\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

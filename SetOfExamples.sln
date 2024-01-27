@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCode", "QRCode\QRCode.csproj", "{02B88DA2-F470-4635-B35C-FA25CEF4E174}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocs", "WordDocs\WordDocs.csproj", "{6BB00A84-D8D6-470C-8512-D035C1829E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{02B88DA2-F470-4635-B35C-FA25CEF4E174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B88DA2-F470-4635-B35C-FA25CEF4E174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B88DA2-F470-4635-B35C-FA25CEF4E174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB00A84-D8D6-470C-8512-D035C1829E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB00A84-D8D6-470C-8512-D035C1829E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB00A84-D8D6-470C-8512-D035C1829E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB00A84-D8D6-470C-8512-D035C1829E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

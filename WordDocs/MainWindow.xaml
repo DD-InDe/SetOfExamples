@@ -1,0 +1,47 @@
+﻿<Window x:Class="WordDocs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordDocs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5.5" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Width" Value="200" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Имя" />
+                    <TextBlock Text="Фамилия" />
+                    <TextBlock Text="Отчество" />
+                    <TextBlock Text="Номер" />
+                    <TextBlock Text="Дата рождения" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <TextBox x:Name="FirstNameTextBox"/>
+                    <TextBox x:Name="LastNameTextBox"/>
+                    <TextBox x:Name="MiddleNameTextBox"/>
+                    <TextBox x:Name="PhoneNameTextBox"/>
+                    <DatePicker x:Name="DatePicker"/>
+                </StackPanel>
+            </StackPanel>
+            <Button x:Name="CreateButton"
+                    Content="Создать"
+                    Margin="10"
+                    Padding="10"
+                    Click="CreateButton_OnClick"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\deer\RiderProjects\SetOfExamples\QRCode\App.xaml
-11407045341
+31888075735
 
-3-1233169557
-198-651932399
-MainWindow.xaml;
+51936514739
+200102596858
+CreateQrPage.xaml;MainWindow.xaml;ReadQrPage.xaml;
 
-True
+False
 

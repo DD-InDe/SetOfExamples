@@ -24,5 +24,15 @@ namespace QRCode
         {
             InitializeComponent();
         }
+
+        private void CreateQrButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new CreateQrPage());
+        }
+
+        private void ReadQrButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ReadQrPage());
+        }
     }
 }

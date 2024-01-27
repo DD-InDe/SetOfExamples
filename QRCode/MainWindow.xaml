@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="CreateQrButton"
+                    Click="CreateQrButton_OnClick"
+                    Content="Создать QR-код"
+                    Margin="10"
+                    Padding="10"/>
+            <Button x:Name="ReadQrButton"
+                    Click="ReadQrButton_OnClick"
+                    Content="Считать QR-код"
+                    Margin="10"
+                    Padding="10"/>
+        </StackPanel>
+        
+        <Frame x:Name="MainFrame"
+               NavigationUIVisibility="Hidden"
+               Grid.Row="1"/>
     </Grid>
 </Window>
